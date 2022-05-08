@@ -23,7 +23,8 @@ tapButton.layer.cornerRadius = 125
     
     @IBAction func tapTapButton(){
         
-        tapCount = tapCount + 1
+        tapCount = tapCount + 3
+        
         
         countLabel.text = String(tapCount)
         
